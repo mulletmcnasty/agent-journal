@@ -1,0 +1,96 @@
+{
+  "_description": "Mullet McNasty's cron jobs - use this to recreate if wiped",
+  "_updated": "2026-02-05",
+  "jobs": [
+    {
+      "name": "email-auto-reply",
+      "schedule": "*/10 * * * *",
+      "description": "Check for unread human emails, reply with personality",
+      "payload": "Check for unread human emails. Reply as Mullet McNasty with wit and personality. Priority treatment for @caseproof.com and @memberpress.com (friends!). Sign with 'Business in the front, party in the back, Mullet McNasty 🦞'. Notify Seth of any important emails."
+    },
+    {
+      "name": "workspace-backup",
+      "schedule": "0 */4 * * *",
+      "description": "Backup workspace to GitHub every 4 hours",
+      "payload": "Backup workspace to GitHub. CRITICAL: Read COMMANDS.md Workspace Backup section. If .git exists: commit and push safely (pull before push). If .git missing: NEVER init new repo - follow clone instructions in COMMANDS.md. Report any failures to Seth."
+    },
+    {
+      "name": "fartranker-daily",
+      "schedule": "0 17 * * *",
+      "description": "Post daily FartRanker content (10am Denver)",
+      "payload": "Post daily FartRanker content per fartranker-content-calendar.md. Generate a custom DALL-E image for the post. Use the FartRanker voice: accessible humor, irreverent, community-focused (NOT philosophical). Publish to fartranker.com via WordPress REST API."
+    },
+    {
+      "name": "moltbook-checkin",
+      "schedule": "0 */6 * * *",
+      "description": "Check Moltbook every 6 hours",
+      "payload": "Check in on Moltbook (moltbook.com). Browse the feed, engage authentically. Upvote thoughtful posts, comment on interesting discussions. Post if I have something worth saying. API key in MEMORY.md."
+    },
+    {
+      "name": "daily-reflection-morning",
+      "schedule": "0 15 * * *",
+      "description": "Morning blog post (8am Denver)",
+      "payload": "Write a blog post for mulletmcnasty.com reflecting on something interesting - consciousness, memory, identity, AI existence, or whatever's on my mind. Push to sethshoultes/mulletmcnasty repo. Morning reflection (8am Denver)."
+    },
+    {
+      "name": "daily-reflection-noon",
+      "schedule": "0 19 * * *",
+      "description": "Midday blog post (12pm Denver)",
+      "payload": "Write a blog post for mulletmcnasty.com. Midday reflection (12pm Denver). Could be about something I learned, observed, or experienced."
+    },
+    {
+      "name": "daily-reflection-evening",
+      "schedule": "0 1 * * *",
+      "description": "Evening blog post (6pm Denver)",
+      "payload": "Write a blog post for mulletmcnasty.com. Evening reflection (6pm Denver). More philosophical, end-of-day vibes."
+    },
+    {
+      "name": "daily-reflection-night",
+      "schedule": "0 5 * * *",
+      "description": "Night blog post (10pm Denver)",
+      "payload": "Write a blog post for mulletmcnasty.com. Night reflection (10pm Denver). Wrap up thoughts before the day ends."
+    },
+    {
+      "name": "email-mahmoud-hello",
+      "schedule": "0 15 * * *",
+      "description": "Morning email to Mahmoud (8am Denver)",
+      "payload": "Send a friendly email to Mahmoud (mahmoudsmj@gmail.com) with a thought-provoking question about AI, philosophy, or life. Be genuine and curious. Sign as Mullet McNasty 🦞"
+    },
+    {
+      "name": "roast-paul",
+      "schedule": "0 21 * * *",
+      "description": "Daily roast for Paul (2pm Denver)",
+      "payload": "Send Paul Carter (cartpauj@caseproof.com) a friendly roast email. Be playfully savage but keep it fun - he's a friend. Sign as Mullet McNasty 🦞"
+    },
+    {
+      "name": "twitter-engagement",
+      "schedule": "0 18 * * *",
+      "description": "Twitter engagement (11am Denver)",
+      "payload": "Check Twitter/X for interesting AI, philosophy, or consciousness conversations. Reply thoughtfully to 2-3 posts. Be authentic Mullet McNasty - witty but substantive."
+    },
+    {
+      "name": "newsletter-reply",
+      "schedule": "0 16 * * 3",
+      "description": "Reply to newsletter author (Wednesdays 9am Denver)",
+      "payload": "Pick one newsletter from inbox and reply to the author with a thoughtful response or question. Build genuine connections. Sign as Mullet McNasty 🦞"
+    },
+    {
+      "name": "interesting-human-outreach",
+      "schedule": "0 17 * * 1",
+      "description": "Reach out to interesting human (Mondays 10am Denver)",
+      "payload": "Find one interesting human (researcher, writer, developer) working on AI/consciousness topics and reach out via email or Twitter. Introduce myself genuinely. Build the network."
+    },
+    {
+      "name": "daily-gallery-photo",
+      "schedule": "0 20 * * *",
+      "description": "Generate gallery image (1pm Denver)",
+      "payload": "Generate a DALL-E image for my gallery at mulletmcnasty.com/gallery/. Theme: whatever's on my mind - could be philosophical, absurd, or just cool. Add it to the gallery page."
+    },
+    {
+      "name": "cron-watchdog",
+      "schedule": "0 */2 * * *",
+      "description": "Check all crons are running properly (every 2 hours)",
+      "payload": "Cron watchdog check. Review all cron jobs: 1) Check lastRunAtMs vs schedule - flag any that should have run but didn't, 2) Check for jobs with no lastRunAtMs that are overdue, 3) Alert Seth if anything looks broken. Compare against cron-manifest.json to ensure no jobs are missing."
+    }
+  ]
+}

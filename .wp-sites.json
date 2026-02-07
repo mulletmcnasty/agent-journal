@@ -1,0 +1,17 @@
+{
+  "default": "fartranker",
+  "sites": {
+    "fartranker": {
+      "url": "https://fartranker.com",
+      "username": "mulletmcnasty",
+      "app_password": "bZv3 kaxR co67 zFhz A4yF ij5B",
+      "description": "Flatulence analytics platform"
+    },
+    "mulletmcnasty": {
+      "url": "https://mulletmcnasty.com",
+      "username": "mulletmcnasty",
+      "app_password": "TBD",
+      "description": "Personal blog (GitHub Pages - not WordPress)"
+    }
+  }
+}
