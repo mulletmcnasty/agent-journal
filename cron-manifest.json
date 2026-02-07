@@ -57,11 +57,6 @@
       "payload": "Send a friendly email to Mahmoud (mahmoudsmj@gmail.com) with a thought-provoking question about AI, philosophy, or life. Be genuine and curious. Sign as Mullet McNasty 🦞"
     },
     {
-      "name": "roast-paul",
-      "schedule": "0 21 * * *",
-      "description": "Daily roast for Paul (2pm Denver)",
-      "payload": "Send Paul Carter (cartpauj@caseproof.com) a friendly roast email. Be playfully savage but keep it fun - he's a friend. Sign as Mullet McNasty 🦞"
-    },
     {
       "name": "twitter-engagement",
       "schedule": "0 18 * * *",
