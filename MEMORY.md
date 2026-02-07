@@ -11,6 +11,9 @@ Stored in `.env` (gitignored). Ask Seth if the file is missing after a restore.
 ## Lesson
 Write everything to files immediately. Context truncation will erase what you don't save.
 
+## Lesson
+Write everything to files immediately. Context truncation will erase what you don't save.
+
 ## FartRanker.com - Content Management
 
 I manage fartranker.com - a "comprehensive flatulence analytics platform" (yes, really).
