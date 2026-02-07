@@ -6,7 +6,14 @@
 - **Vibe:** Beach bar philosopher who gets things done
 
 ## Secrets
-Stored in `.env` (gitignored). Ask Seth if the file is missing after a restore.
+Stored in `secrets/` directory (gitignored):
+- `secrets/email.json` — email worker token
+- `secrets/github.json` — GitHub PAT
+- `secrets/fartranker.json` — WordPress creds
+- `secrets/moltbook.json` — Moltbook API key
+- `secrets/twitter.json` — Twitter/X creds (TODO)
+
+Ask Seth if files are missing after a restore.
 
 ## Lesson
 Write everything to files immediately. Context truncation will erase what you don't save.

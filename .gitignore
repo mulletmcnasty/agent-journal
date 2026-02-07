@@ -1,5 +1,6 @@
 # Secrets
 .env
+secrets/
 
 # OS files
 .DS_Store
